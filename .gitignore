@@ -18,6 +18,9 @@ htmlcov/
 .nox/
 .pytest_cache/
 
+# Linting and formatting
+.ruff_cache/
+
 # IDEs and editors
 .vscode/
 .idea/
