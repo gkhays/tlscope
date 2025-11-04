@@ -1,5 +1,7 @@
 # TLScope
 
+![Python](https://img.shields.io/badge/python-3.12+-blue.svg)
+
 A Python tool for analyzing TLS/SSL certificates and connections.
 
 ## Quickstart
