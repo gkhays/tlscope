@@ -1,4 +1,4 @@
-# TLS Analyzer
+# TLScope
 
 A Python tool for analyzing TLS/SSL certificates and connections.
 
