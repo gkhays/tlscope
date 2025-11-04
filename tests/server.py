@@ -3,7 +3,7 @@ import socket
 import threading
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
-from tls_analyzer.tls import TLSAnalyzer
+from tlscope.tls import TLSAnalyzer
 
 class SecureHTTPRequestHandler(BaseHTTPRequestHandler):
     def do_GET(self):

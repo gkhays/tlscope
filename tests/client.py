@@ -1,7 +1,7 @@
 import ssl
 import requests
 
-from tls_analyzer.tls import TLSAnalyzer
+from tlscope.tls import TLSAnalyzer
 
 class SecureHTTPClient:
     def __init__(self, url="https://localhost:8443", client_cert="client.pem", client_key="client.key", ca_file="ca.pem"):

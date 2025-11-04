@@ -1,7 +1,7 @@
 import sys
 import argparse
 from urllib.parse import urlparse
-from tls_analyzer.cert import CertAnalyzer
+from tlscope.cert import CertAnalyzer
 
 
 def main():

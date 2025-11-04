@@ -1,6 +1,6 @@
 # Tests
 
-This directory contains the test suite for the TLS Analyzer project.
+This directory contains the test suite for the TLScope project.
 
 ## Test Structure
 
@@ -32,12 +32,12 @@ uv run pytest tests/test_cert.py::TestCertAnalyzer::test_analyze_certificate_val
 
 ### Run with coverage report:
 ```bash
-uv run pytest --cov=src/tls_analyzer --cov-report=term-missing
+uv run pytest --cov=src/tlscope --cov-report=term-missing
 ```
 
 ### Run with HTML coverage report:
 ```bash
-uv run pytest --cov=src/tls_analyzer --cov-report=html
+uv run pytest --cov=src/tlscope --cov-report=html
 # Then open htmlcov/index.html in a browser
 ```
 

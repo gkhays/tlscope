@@ -9,7 +9,7 @@ from cryptography.hazmat.primitives.asymmetric import rsa
 from cryptography.x509.oid import NameOID, ExtensionOID
 import pytest
 
-from tls_analyzer.cert import CertAnalyzer
+from tlscope.cert import CertAnalyzer
 
 
 @pytest.fixture

@@ -1,6 +1,6 @@
-# Contributing to TLS Analyzer
+# Contributing to TLScope
 
-Thank you for your interest in contributing to TLS Analyzer! This document provides guidelines and instructions for contributing to the project.
+Thank you for your interest in contributing to TLScope! This document provides guidelines and instructions for contributing to the project.
 
 ## Getting Started
 
@@ -13,8 +13,8 @@ Thank you for your interest in contributing to TLS Analyzer! This document provi
 
 1. **Fork and clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/py-tls-analyzer.git
-   cd py-tls-analyzer
+   git clone https://github.com/yourusername/tlscope.git
+   cd tlscope
    ```
 
 2. **Install dependencies:**
@@ -24,7 +24,7 @@ Thank you for your interest in contributing to TLS Analyzer! This document provi
 
 3. **Verify the installation:**
    ```bash
-   uv run tls-analyzer --help
+   uv run tlscope --help
    ```
 
 ## Development Workflow
@@ -36,11 +36,11 @@ Thank you for your interest in contributing to TLS Analyzer! This document provi
    git checkout -b feature/your-feature-name
    ```
 
-2. **Make your changes** in the appropriate files under `src/tls_analyzer/`
+2. **Make your changes** in the appropriate files under `src/tlscope/`
 
 3. **Test your changes** locally:
    ```bash
-   uv run tls-analyzer --url https://example.com
+   uv run tlscope --url https://example.com
    ```
 
 ### Running Tests
@@ -159,9 +159,9 @@ For feature requests, please describe:
 ## Project Structure
 
 ```
-py-tls-analyzer/
+tlscope/
 ├── src/
-│   └── tls_analyzer/
+│   └── tlscope/
 │       ├── __init__.py
 │       ├── __main__.py
 │       ├── cert.py      # Certificate handling
@@ -179,4 +179,4 @@ If you have questions about contributing, feel free to:
 - Open an issue for discussion
 - Reach out to the maintainers
 
-Thank you for contributing to TLS Analyzer! 🎉
+Thank you for contributing to TLScope! 🎉

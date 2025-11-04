@@ -3,7 +3,7 @@ import ssl
 from unittest.mock import Mock, MagicMock
 import pytest
 
-from tls_analyzer.tls import TLSAnalyzer
+from tlscope.tls import TLSAnalyzer
 
 
 class TestTLSAnalyzer:

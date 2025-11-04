@@ -1,1 +1,1 @@
-"""Tests for TLS Analyzer."""
+"""Tests for TLScope."""

@@ -27,12 +27,12 @@ pip install -e .
 Analyze a TLS certificate for any URL:
 
 ```bash
-uv run -m tls_analyzer --url https://github.com
+uv run -m tlscope --url https://github.com
 ```
 
 Or if installed with pip:
 ```bash
-python -m tls_analyzer --url https://github.com
+python -m tlscope --url https://github.com
 ```
 
 The tool will display:
